@@ -1,0 +1,60 @@
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    height: 70vh;
+}
+.card p{
+    display: flex;
+    justify-content: center;
+    width: 9px;
+    height: 20vh;
+}p:first-child{
+    animation: animationDesc 0.6s infinite linear;
+    animation-delay: 0.1s;
+}
+p:nth-child(2){
+    animation: animationDesc 0.6s infinite linear;
+    animation-delay: 0.15s;
+}
+p:nth-child(3){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.2s;
+}
+p:nth-child(4){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.25s;
+}p:nth-child(5){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.3s;
+}
+p:nth-child(6){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.35s;
+}p:nth-child(7){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.4s;
+}p:nth-child(8){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.45s;
+}p:nth-child(9){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.5s;
+}
+p:nth-child(10){
+    animation: animationDesc 0.6s infinite linear ;
+    animation-delay: 0.55s;
+}
+
+@keyframes animationDesc{
+    50%{
+        background-color: rgb(170, 252, 8);
+        transform: scale(0.5) ;
+    }
+    100%{
+        transform: scale(1) ;
+        background-color: aqua;
+    }
+
+}
